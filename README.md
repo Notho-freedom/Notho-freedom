@@ -2,273 +2,297 @@
 
 # RAVEL MOMO
 
-### Software Engineer · Product Builder · Systems Explorer
+### SOFTWARE ENGINEER · PRODUCT BUILDER · SYSTEMS EXPLORER
 
-**I build software at the intersection of AI, systems, interfaces and ambitious ideas.**
+**I build software where AI, systems, interfaces and ambitious ideas collide.**
 
 <br>
 
-[ PROJECTS ] · [ FLAGSHIP ] · [ LAB ] · [ EXPERIMENTS ]
+`AI` · `REALTIME` · `VOICE` · `DEVELOPER TOOLS` · `PRODUCTS` · `INFRASTRUCTURE`
+
+<br><br>
+
+> **The repository list is the archive. This README is the map.**
 
 </div>
 
 ---
 
-## `01 / SIGNAL`
+## 01 — THE SIGNAL
 
-I don't really build software just to have another app.
+I don't build software just to add another app to the internet.
 
-I build things because there's a problem I want to understand, a system I want to push, or an idea that feels too interesting to leave as an idea.
+I build when there is a system worth understanding, a workflow worth redesigning, or an idea that feels too interesting to leave as an idea.
 
-My projects tend to live somewhere between:
+My projects move across different layers of the stack:
 
-**AI × Automation × Real-time × Interfaces × Developer Tools × Infrastructure**
+```text
+        PRODUCT
+           ▲
+           │
+     AI · AUTOMATION
+           │
+   REALTIME · VOICE
+           │
+ DEVELOPER TOOLS · DATA
+           │
+   INFRASTRUCTURE · UX
+```
 
-Some become products.
-Some become prototypes.
+Some projects become serious products.
+Some become tools.
+Some become experiments.
 Some get abandoned.
 
-I keep the interesting ones anyway.
+I keep the interesting ones.
 
-Because the experiment is often part of the product.
+Because an experiment is often where the real engineering starts.
 
 ---
 
-# `02 / FLAGSHIP`
+# 02 — FLAGSHIP
 
 <div align="center">
 
-## AURA
+## AURA MEETING INTELLIGENCE
 
-### MEETING INTELLIGENCE
+### `INVITE` → `CONDUCT` → `UNDERSTAND` → `DISTRIBUTE`
 
 **Meetings shouldn't disappear when the call ends.**
 
-`INVITE` → `CONDUCT` → `UNDERSTAND` → `DISTRIBUTE`
-
 </div>
 
-Aura is a meeting intelligence platform designed to turn the entire meeting lifecycle into structured, searchable knowledge.
+Aura is a product-focused meeting intelligence platform built around the **entire lifecycle of a meeting**, rather than only the video call.
 
-Not just another video-call interface.
+The system connects:
 
-The idea is to connect the pieces that normally live in completely different tools:
+- intelligent invitations and reminders
+- AI / voice interactions
+- real-time meetings
+- transcription and multilingual processing
+- decisions and action-item extraction
+- structured reports
+- persistent meeting knowledge
 
-* intelligent invitations & reminders
-* voice / AI interactions
-* real-time meetings
-* transcription
-* multilingual processing
-* decisions & action-item extraction
-* structured reports
-* persistent meeting knowledge
+The interesting problem isn't simply **"how do we make a meeting?"**
 
-**The interesting part isn't the meeting.**
+It's:
 
-It's everything that happens **before, during and after it**.
+> **What happens before the meeting, during the meeting, and after everyone leaves?**
 
-> **Status:** Private build · Product-focused
+`STATUS: PRIVATE · PRODUCT-FOCUSED`
 
 ---
 
-# `03 / SELECTED BUILDS`
+# 03 — SELECTED BUILDS
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### 🧠 [PyDeps](../PyDeps)
 
-**Python dependency intelligence.**
+**Dependency intelligence for Python.**
 
-A developer tool that analyzes Python projects from their actual imports instead of blindly trusting a `requirements.txt`.
+Instead of trusting a `requirements.txt`, PyDeps looks at what the code actually imports.
 
-AST analysis · import resolution · stdlib detection · package installation · security auditing · outdated dependency detection · lockfiles · project bootstrapping.
+`AST` · import resolution · stdlib detection · package mapping · auto-installation · security auditing · outdated dependencies · lockfiles · project bootstrapping
 
-**A small problem turned into a proper systems problem.**
+**A small developer problem turned into a systems problem.**
 
----
+</td>
+<td width="50%" valign="top">
 
 ### 🎙️ [Alice](../Alice)
 
-**A local voice interface for Kilo Code.**
+**A voice interface for Kilo Code.**
 
-Alice sits between your voice and an AI coding agent.
+Alice sits between a human voice and an AI coding agent.
 
-Microphone → VAD → STT → Kilo → TTS
+```text
+MIC
+ ↓
+VAD → STT → KILO → TTS
+ ↑             ↓
+ └── BARGE-IN ─┘
+```
 
-With wake-word detection, continuous conversation, interruption handling, ring buffers and multiple speech providers.
+Wake words · continuous conversation · interruption handling · ring buffers · multiple STT/TTS providers
 
-The goal isn't to make a chatbot that talks.
+**Not a talking chatbot. A workflow interface.**
 
-It's to make an AI system that can **actually participate in a workflow**.
-
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 💬 [BlueChat](../BlueChat)
 
-**Communication without the usual walls.**
+**Exploring communication between private and public.**
 
-A social communication experiment exploring the space between private messaging and public discovery.
+What started as a messaging product evolved into an exploration of contextual identity, realtime communication, social discovery and the boundary between public interaction and private conversation.
 
-Messaging · social interactions · real-time communication · contextual identity · public/private boundaries.
+**The question isn't just how to message. It's how to move between contexts.**
 
-BlueChat started as a chat application.
-
-It became an exploration of **how communication could work differently**.
-
----
+</td>
+<td width="50%" valign="top">
 
 ### 🌍 GeoSpark
 
 **Geospatial intelligence as an interface.**
 
-An experiment around maps, spatial information and intelligent interaction.
+An exploration of maps, spatial information and intelligent interaction.
 
-The interesting question:
+The underlying question:
 
-> What happens when geographic data stops being something you look at and becomes something you can reason with?
+> What if geographic data wasn't something you simply looked at, but something software could reason about with you?
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### ⚔️ Reaper
 
-**AI-assisted website analysis.**
+**AI-assisted digital product analysis.**
 
-An experiment in using AI to inspect digital products beyond simply checking whether a page loads.
+An exploration of automated inspection across UX, accessibility, structure, quality and technical signals.
 
-Quality · UX · structure · accessibility · technical signals.
+The direction is simple:
 
-The direction:
+**turn analysis into actionable engineering feedback.**
 
-**turning automated analysis into actionable engineering feedback.**
-
----
+</td>
+<td width="50%" valign="top">
 
 ### ☁️ Cloud Hosting
 
-**Infrastructure, but from the product side.**
+**An infrastructure experiment from the product side.**
 
-An African-oriented hosting experiment exploring domains, server resources, deployments and the experience around running online services.
+An African-oriented hosting project exploring domains, server resources, deployments and the experience around operating online services.
 
 Not just:
 
-> "Here's a server."
+`HERE IS YOUR SERVER.`
 
 But:
 
-> **"How should the entire hosting experience work?"**
+**HOW SHOULD THE WHOLE EXPERIENCE WORK?**
+
+</td>
+</tr>
+</table>
 
 ---
 
-# `04 / THE LAB`
+# 04 — THE LAB
 
-Not every project needs to become a company.
+Not every repository is supposed to become a company.
 
-Some projects exist because I wanted to test an idea.
+Some exist to answer a technical question.
+Some exist to test an interaction.
+Some exist because I wanted to see whether an idea could actually work.
 
-Some because I wanted to understand a technology.
+That's why the profile contains a mixture of products, prototypes and experiments.
 
-Some because I wondered:
-
-> *"Could this actually work?"*
-
-### Experiments & prototypes
-
-| Project                     | What I was exploring                              |
-| --------------------------- | ------------------------------------------------- |
-| **Cognitive Stream**        | AI-driven information & cognitive interfaces      |
-| **Maddox**                  | Interactive AI / physics / visual experimentation |
-| **Notilus**                 | Browser & modern web interaction                  |
-| **Git Shadow**              | Developer workflow & Git tooling                  |
-| **docGen**                  | Automated developer documentation                 |
-| **socialGen**               | AI-assisted content systems                       |
-| **Nova Sound**              | Audio / interactive experimentation               |
-| **Vokalis**                 | Voice & speech systems                            |
-| **Visual Reasoning Engine** | Visual reasoning concepts                         |
-| **Hand Canvas**             | Computer vision / gesture interaction             |
-| **TeleRemoteX**             | Remote interaction                                |
-| **Nautilus**                | Experimental software architecture                |
-| **SkyOS**                   | Web-based operating-system concepts               |
+| Project | Exploration |
+|---|---|
+| **Cognitive Stream** | AI-driven information and cognitive interfaces |
+| **Maddox** | Interactive AI / physics / visual experimentation |
+| **Notilus** | Browser and modern web interaction |
+| **Git Shadow** | Developer workflow and Git tooling |
+| **docGen** | Automated developer documentation |
+| **socialGen** | AI-assisted content systems |
+| **Nova Sound** | Audio and interactive experimentation |
+| **Vokalis** | Voice and speech systems |
+| **Visual Reasoning Engine** | Visual reasoning concepts |
+| **Hand Canvas** | Computer vision and gesture interaction |
+| **TeleRemoteX** | Remote interaction |
+| **Nautilus** | Experimental software architecture |
+| **aura-connect** | Product / interface experimentation |
 
 And there are more.
 
-**The repository list is the archive.**
+**I don't consider unfinished work automatically worthless.**
 
-This README is the map.
+A prototype can contain an architecture, a failure, a useful abstraction, or a question that becomes important six months later.
 
 ---
 
-# `05 / HOW I BUILD`
+# 05 — HOW I BUILD
 
 ```text
-             IDEA
-              │
-              ▼
-         ┌──────────┐
-         │ PROTOTYPE│
-         └────┬─────┘
-              │
-        ┌─────┴─────┐
-        ▼           ▼
-     "Works"     "Interesting"
-        │           │
-        └─────┬─────┘
-              ▼
-          ITERATE
-              │
-              ▼
-          SYSTEMIZE
-              │
-              ▼
-           PRODUCT
+                         IDEA
+                          │
+                          ▼
+                    ┌───────────┐
+                    │ PROTOTYPE │
+                    └─────┬─────┘
+                          │
+                ┌─────────┴─────────┐
+                ▼                   ▼
+             WORKS              INTERESTING
+                │                   │
+                └─────────┬─────────┘
+                          ▼
+                       ITERATE
+                          │
+                          ▼
+                      SYSTEMIZE
+                          │
+                          ▼
+                       PRODUCT
 ```
 
-I like moving between levels.
+I like moving between levels of abstraction.
 
-One day that can mean designing a product flow.
+One moment: designing a product flow.
 
-The next, writing an AST parser.
+The next: writing an AST parser.
 
-Then debugging a realtime system.
+Then: debugging a realtime system.
 
-Then figuring out how an AI agent should interact with a microphone.
+Then: figuring out how an AI agent should interact with a microphone.
 
-Then throwing half of it away and rebuilding it differently.
+Then: throwing half of it away and rebuilding it differently.
 
-That's the fun part.
+**That transition between idea → system → product is the part I enjoy most.**
 
 ---
 
-# `06 / CURRENT STACK`
+# 06 — CURRENT TOOLBOX
 
 ### Languages
 
 `TypeScript` · `JavaScript` · `Python` · `Dart` · `SQL`
 
-### Product & Web
+### Web / Product
 
 `Next.js` · `React` · `Vite` · `Tailwind CSS`
 
-### Backend & Infrastructure
+### Backend / Data / Infra
 
 `Node.js` · `FastAPI` · `Supabase` · `PostgreSQL` · `Docker`
 
-### AI
+### AI / Voice
 
 `LLMs` · `Agents` · `RAG` · `STT` · `TTS` · `VAD` · `AI-assisted development`
 
-### Systems & Interfaces
+### Systems / Interfaces
 
 `Realtime` · `WebSockets` · `Voice Interfaces` · `Developer Tooling` · `Interactive UI`
 
 ---
 
-# `07 / CURRENTLY EXPLORING`
+# 07 — CURRENTLY EXPLORING
 
 ```yaml
 focus:
   - AI-native products
+  - agentic workflows
   - intelligent developer tools
   - voice interfaces
   - real-time systems
-  - agentic workflows
   - immersive interfaces
   - infrastructure
 
@@ -276,34 +300,41 @@ questions:
   - How should software behave when AI becomes a native system component?
   - What does a genuinely useful voice interface look like?
   - How can complex systems become intuitive interfaces?
-  - What happens when prototypes are treated as research instead of disposable demos?
+  - How much of a product can be generated dynamically without becoming predictable?
+  - What can prototypes teach us when we treat them as research?
 ```
 
 ---
 
-# `08 / A DIFFERENT KIND OF PORTFOLIO`
+# 08 — THE POINT OF THIS PROFILE
 
-I don't want this profile to look like a résumé.
+I don't want this page to look like a résumé.
 
 A résumé tells you **what someone has done**.
 
-A GitHub should tell you **how they think**.
+A GitHub profile can tell you **how someone thinks**.
 
-So you'll find a mixture of:
+So you'll find:
 
-**products**
+`PRODUCTS`
 
-**developer tools**
+`DEVELOPER TOOLS`
 
-**AI systems**
+`AI SYSTEMS`
 
-**experiments**
+`VOICE`
 
-**weird ideas**
+`REALTIME`
 
-**unfinished things**
+`EXPERIMENTS`
 
-**and occasionally something that should probably have been a much smaller project.**
+`WEIRD IDEAS`
+
+`UNFINISHED THINGS`
+
+…and occasionally something that should probably have been a much smaller project.
+
+That's intentional.
 
 ---
 
@@ -311,12 +342,12 @@ So you'll find a mixture of:
 
 ## BUILD → BREAK → UNDERSTAND → REBUILD
 
-### That's the loop.
+### The loop matters more than the label.
 
 <br>
 
-`Ravel Momo`
+**RAVEL MOMO**
 
-Software Engineer · Builder · Experimenter
+`Software Engineer · Builder · Experimenter`
 
 </div>
