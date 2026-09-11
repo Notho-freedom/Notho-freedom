@@ -2,57 +2,64 @@
 
 # RAVEL MOMO
 
-### SOFTWARE ENGINEER · PRODUCT BUILDER · SYSTEMS EXPLORER
+### 🧠 SOFTWARE ENGINEER · 🧪 PRODUCT BUILDER · ⚙️ SYSTEMS EXPLORER
 
 **I build software where AI, systems, interfaces and ambitious ideas collide.**
 
 <br>
 
-`AI` · `REALTIME` · `VOICE` · `DEVELOPER TOOLS` · `PRODUCTS` · `INFRASTRUCTURE`
+`🤖 AI` · `⚡ REALTIME` · `🎙️ VOICE` · `🛠️ DEV TOOLS` · `🚀 PRODUCTS` · `☁️ INFRA`
 
 <br><br>
 
-> **The repository list is the archive. This README is the map.**
+> **The repositories are the archive. This page is the map.** 🗺️
 
 </div>
 
 ---
 
-## 01 — THE SIGNAL
+## 01 — 🧭 THE SIGNAL
 
-I don't build software just to add another app to the internet.
+<table>
+<tr>
+<td width="58%" valign="top">
 
-I build when there is a system worth understanding, a workflow worth redesigning, or an idea that feels too interesting to leave as an idea.
+I like building things that sit somewhere between **software product, technical system and experiment**.
 
-My projects move across different layers of the stack:
+A project can start with a tiny question — *can this be automated? can this interface feel different? can an AI actually operate this workflow?* — and end somewhere much larger.
 
-```text
-        PRODUCT
-           ▲
-           │
-     AI · AUTOMATION
-           │
-   REALTIME · VOICE
-           │
- DEVELOPER TOOLS · DATA
-           │
-   INFRASTRUCTURE · UX
-```
+I move comfortably between **product thinking and low-level implementation**: architecture, APIs, AI workflows, realtime systems, interfaces, developer tooling and infrastructure.
 
-Some projects become serious products.
-Some become tools.
-Some become experiments.
-Some get abandoned.
+</td>
+<td width="42%" valign="top">
 
-I keep the interesting ones.
+### 🔭 THE RANGE
 
-Because an experiment is often where the real engineering starts.
+**PRODUCT**
+→ SaaS · workflows · social systems
+
+**INTELLIGENCE**
+→ AI · agents · automation
+
+**INTERACTION**
+→ voice · realtime · immersive UI
+
+**ENGINEERING**
+→ tooling · data · infrastructure
+
+</td>
+</tr>
+</table>
+
+> Some builds become products. Some become tools. Some become experiments. **All of them teach something.**
 
 ---
 
-# 02 — FLAGSHIP
+# 02 — 🚀 FLAGSHIP
 
-<div align="center">
+<table>
+<tr>
+<td width="62%" valign="top">
 
 ## AURA MEETING INTELLIGENCE
 
@@ -60,31 +67,48 @@ Because an experiment is often where the real engineering starts.
 
 **Meetings shouldn't disappear when the call ends.**
 
-</div>
+Aura is a product-focused meeting intelligence platform built around the **whole lifecycle of a meeting**, not just the video call.
 
-Aura is a product-focused meeting intelligence platform built around the **entire lifecycle of a meeting**, rather than only the video call.
+It brings together intelligent invitations, reminders, AI/voice interactions, realtime meetings, transcription, multilingual processing, decisions, action items and structured reports.
 
-The system connects:
-
-- intelligent invitations and reminders
-- AI / voice interactions
-- real-time meetings
-- transcription and multilingual processing
-- decisions and action-item extraction
-- structured reports
-- persistent meeting knowledge
-
-The interesting problem isn't simply **"how do we make a meeting?"**
+The interesting question is not *"how do we make another meeting app?"*
 
 It's:
 
-> **What happens before the meeting, during the meeting, and after everyone leaves?**
+> **What should happen before the meeting, during the meeting, and after everyone leaves?**
 
-`STATUS: PRIVATE · PRODUCT-FOCUSED`
+</td>
+<td width="38%" valign="top">
+
+### 🧩 THE SYSTEM
+
+📨 **Before**
+
+Invitations · reminders · preparation
+
+🎙️ **During**
+
+Voice · realtime · AI interaction
+
+🧠 **After**
+
+Transcription · decisions · actions · reports
+
+📚 **Beyond**
+
+Persistent meeting knowledge
+
+<br>
+
+`PRIVATE` · `PRODUCT-FOCUSED`
+
+</td>
+</tr>
+</table>
 
 ---
 
-# 03 — SELECTED BUILDS
+# 03 — ⚡ SELECTED BUILDS
 
 <table>
 <tr>
@@ -94,11 +118,11 @@ It's:
 
 **Dependency intelligence for Python.**
 
-Instead of trusting a `requirements.txt`, PyDeps looks at what the code actually imports.
+PyDeps inspects what code actually imports instead of blindly trusting a dependency file.
 
-`AST` · import resolution · stdlib detection · package mapping · auto-installation · security auditing · outdated dependencies · lockfiles · project bootstrapping
+`AST` · package resolution · stdlib detection · auto-install · security audit · outdated packages · lockfiles
 
-**A small developer problem turned into a systems problem.**
+> A small developer problem turned into a systems problem.
 
 </td>
 <td width="50%" valign="top">
@@ -107,19 +131,17 @@ Instead of trusting a `requirements.txt`, PyDeps looks at what the code actually
 
 **A voice interface for Kilo Code.**
 
-Alice sits between a human voice and an AI coding agent.
+Human voice → AI coding agent → spoken response.
 
 ```text
-MIC
- ↓
-VAD → STT → KILO → TTS
- ↑             ↓
- └── BARGE-IN ─┘
+MIC → VAD → STT → KILO → TTS
+ ↑                         ↓
+ └──────── BARGE-IN ───────┘
 ```
 
-Wake words · continuous conversation · interruption handling · ring buffers · multiple STT/TTS providers
+Wake word · continuous conversation · interruption handling · provider fallback
 
-**Not a talking chatbot. A workflow interface.**
+> Not a talking chatbot. **A workflow interface.**
 
 </td>
 </tr>
@@ -128,11 +150,11 @@ Wake words · continuous conversation · interruption handling · ring buffers �
 
 ### 💬 [BlueChat](../BlueChat)
 
-**Exploring communication between private and public.**
+**Communication between private and public.**
 
-What started as a messaging product evolved into an exploration of contextual identity, realtime communication, social discovery and the boundary between public interaction and private conversation.
+Messaging evolved into an exploration of contextual identity, realtime communication, social discovery and the boundary between public interaction and private conversation.
 
-**The question isn't just how to message. It's how to move between contexts.**
+> **How should software move between contexts?**
 
 </td>
 <td width="50%" valign="top">
@@ -143,9 +165,7 @@ What started as a messaging product evolved into an exploration of contextual id
 
 An exploration of maps, spatial information and intelligent interaction.
 
-The underlying question:
-
-> What if geographic data wasn't something you simply looked at, but something software could reason about with you?
+> What if geographic data wasn't something you simply looked at, but something software could **reason about with you**?
 
 </td>
 </tr>
@@ -156,28 +176,22 @@ The underlying question:
 
 **AI-assisted digital product analysis.**
 
-An exploration of automated inspection across UX, accessibility, structure, quality and technical signals.
+Automated inspection across UX, accessibility, structure, quality and technical signals.
 
-The direction is simple:
-
-**turn analysis into actionable engineering feedback.**
+**Goal:** turn analysis into actionable engineering feedback.
 
 </td>
 <td width="50%" valign="top">
 
 ### ☁️ Cloud Hosting
 
-**An infrastructure experiment from the product side.**
+**Infrastructure from the product side.**
 
-An African-oriented hosting project exploring domains, server resources, deployments and the experience around operating online services.
+An African-oriented hosting exploration around domains, server resources, deployments and the experience of operating online services.
 
-Not just:
-
-`HERE IS YOUR SERVER.`
-
-But:
-
-**HOW SHOULD THE WHOLE EXPERIENCE WORK?**
+> Not just **“here is your server.”**
+> 
+> **How should the whole experience work?**
 
 </td>
 </tr>
@@ -185,169 +199,194 @@ But:
 
 ---
 
-# 04 — THE LAB
+# 04 — 🔬 THE LAB
 
-Not every repository is supposed to become a company.
+Instead of dumping every prototype into another giant list, here's the **map of the lab**.
 
-Some exist to answer a technical question.
-Some exist to test an interaction.
-Some exist because I wanted to see whether an idea could actually work.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-That's why the profile contains a mixture of products, prototypes and experiments.
+### 🤖 INTELLIGENCE
 
-| Project | Exploration |
-|---|---|
-| **Cognitive Stream** | AI-driven information and cognitive interfaces |
-| **Maddox** | Interactive AI / physics / visual experimentation |
-| **Notilus** | Browser and modern web interaction |
-| **Git Shadow** | Developer workflow and Git tooling |
-| **docGen** | Automated developer documentation |
-| **socialGen** | AI-assisted content systems |
-| **Nova Sound** | Audio and interactive experimentation |
-| **Vokalis** | Voice and speech systems |
-| **Visual Reasoning Engine** | Visual reasoning concepts |
-| **Hand Canvas** | Computer vision and gesture interaction |
-| **TeleRemoteX** | Remote interaction |
-| **Nautilus** | Experimental software architecture |
-| **aura-connect** | Product / interface experimentation |
+**Cognitive Stream**  
+AI / information interfaces
 
-And there are more.
+**Visual Reasoning Engine**  
+Visual reasoning experiments
 
-**I don't consider unfinished work automatically worthless.**
+**socialGen**  
+AI-assisted content systems
 
-A prototype can contain an architecture, a failure, a useful abstraction, or a question that becomes important six months later.
+**docGen**  
+Automated documentation
 
----
+</td>
+<td width="33%" valign="top">
 
-# 05 — HOW I BUILD
+### 🎨 INTERACTION
 
-```text
-                         IDEA
-                          │
-                          ▼
-                    ┌───────────┐
-                    │ PROTOTYPE │
-                    └─────┬─────┘
-                          │
-                ┌─────────┴─────────┐
-                ▼                   ▼
-             WORKS              INTERESTING
-                │                   │
-                └─────────┬─────────┘
-                          ▼
-                       ITERATE
-                          │
-                          ▼
-                      SYSTEMIZE
-                          │
-                          ▼
-                       PRODUCT
-```
+**Maddox**  
+Interactive / visual experimentation
 
-I like moving between levels of abstraction.
+**Hand Canvas**  
+Gesture + computer vision
 
-One moment: designing a product flow.
+**Nova Sound**  
+Audio experiments
 
-The next: writing an AST parser.
+**Vokalis**  
+Voice / speech systems
 
-Then: debugging a realtime system.
+</td>
+<td width="34%" valign="top">
 
-Then: figuring out how an AI agent should interact with a microphone.
+### ⚙️ SYSTEMS
 
-Then: throwing half of it away and rebuilding it differently.
+**Notilus**  
+Browser / web interaction
 
-**That transition between idea → system → product is the part I enjoy most.**
+**Git Shadow**  
+Developer workflow
 
----
+**TeleRemoteX**  
+Remote interaction
 
-# 06 — CURRENT TOOLBOX
+**Nautilus**  
+Architecture experiments
 
-### Languages
+</td>
+</tr>
+</table>
 
-`TypeScript` · `JavaScript` · `Python` · `Dart` · `SQL`
-
-### Web / Product
-
-`Next.js` · `React` · `Vite` · `Tailwind CSS`
-
-### Backend / Data / Infra
-
-`Node.js` · `FastAPI` · `Supabase` · `PostgreSQL` · `Docker`
-
-### AI / Voice
-
-`LLMs` · `Agents` · `RAG` · `STT` · `TTS` · `VAD` · `AI-assisted development`
-
-### Systems / Interfaces
-
-`Realtime` · `WebSockets` · `Voice Interfaces` · `Developer Tooling` · `Interactive UI`
-
----
-
-# 07 — CURRENTLY EXPLORING
-
-```yaml
-focus:
-  - AI-native products
-  - agentic workflows
-  - intelligent developer tools
-  - voice interfaces
-  - real-time systems
-  - immersive interfaces
-  - infrastructure
-
-questions:
-  - How should software behave when AI becomes a native system component?
-  - What does a genuinely useful voice interface look like?
-  - How can complex systems become intuitive interfaces?
-  - How much of a product can be generated dynamically without becoming predictable?
-  - What can prototypes teach us when we treat them as research?
-```
-
----
-
-# 08 — THE POINT OF THIS PROFILE
-
-I don't want this page to look like a résumé.
-
-A résumé tells you **what someone has done**.
-
-A GitHub profile can tell you **how someone thinks**.
-
-So you'll find:
-
-`PRODUCTS`
-
-`DEVELOPER TOOLS`
-
-`AI SYSTEMS`
-
-`VOICE`
-
-`REALTIME`
-
-`EXPERIMENTS`
-
-`WEIRD IDEAS`
-
-`UNFINISHED THINGS`
-
-…and occasionally something that should probably have been a much smaller project.
-
-That's intentional.
-
----
-
-<div align="center">
-
-## BUILD → BREAK → UNDERSTAND → REBUILD
-
-### The loop matters more than the label.
+<details>
+<summary><b>🗃️ More experiments</b></summary>
 
 <br>
 
-**RAVEL MOMO**
+`aura-connect` · `Visual Reasoning Engine` · `TeleRemoteX` · `Nautilus` · `Nova Sound` · `Vokalis` · `Hand Canvas` · `socialGen` · `docGen` · `Git Shadow` · `Notilus` · `Maddox`
 
-`Software Engineer · Builder · Experimenter`
+There are more prototypes in the archive. They don't all deserve the same spotlight — and that's exactly the point.
+
+</details>
+
+> 🧪 **A prototype isn't automatically failed software.** It can contain an architecture, a useful abstraction, a dead end, a lesson — or the seed of the next serious project.
+
+---
+
+# 05 — 🧬 HOW I BUILD
+
+<table>
+<tr>
+<td align="center" width="20%">
+
+💡<br><b>IDEA</b>
+
+</td>
+<td align="center" width="20%">→</td>
+<td align="center" width="20%">
+
+🧪<br><b>PROTOTYPE</b>
+
+</td>
+<td align="center" width="20%">→</td>
+<td align="center" width="20%">
+
+⚙️<br><b>SYSTEM</b>
+
+</td>
+</tr>
+<tr>
+<td colspan="5" align="center">↓</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+
+🔁 **ITERATE**
+
+</td>
+<td align="center">→</td>
+<td align="center" colspan="2">
+
+🚀 **PRODUCT**
+
+</td>
+</tr>
+</table>
+
+I enjoy moving between abstraction levels: **designing a product flow → writing an AST parser → debugging realtime behaviour → designing an AI voice pipeline → rebuilding the whole thing differently.**
+
+The interesting part is the transition:
+
+> **idea → system → product**
+
+---
+
+# 06 — 🛠️ TOOLBOX
+
+<table>
+<tr>
+<td width="25%" valign="top"><b>💻 Languages</b><br><br>`TypeScript`<br>`JavaScript`<br>`Python`<br>`Dart`<br>`SQL`</td>
+<td width="25%" valign="top"><b>🌐 Product</b><br><br>`Next.js`<br>`React`<br>`Vite`<br>`Tailwind CSS`</td>
+<td width="25%" valign="top"><b>☁️ Backend</b><br><br>`Node.js`<br>`FastAPI`<br>`Supabase`<br>`PostgreSQL`<br>`Docker`</td>
+<td width="25%" valign="top"><b>🤖 AI / Voice</b><br><br>`LLMs`<br>`Agents`<br>`RAG`<br>`STT`<br>`TTS`<br>`VAD`</td>
+</tr>
+</table>
+
+---
+
+# 07 — 🔭 CURRENTLY EXPLORING
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌌 BUILDING TOWARD
+
+🤖 AI-native products  
+🧠 Agentic workflows  
+🎙️ Voice interfaces  
+⚡ Realtime systems  
+🧰 Intelligent developer tools  
+🌐 Immersive interfaces  
+☁️ Infrastructure
+
+</td>
+<td width="50%" valign="top">
+
+### ❓ QUESTIONS I KEEP CHASING
+
+How should software behave when **AI becomes a native system component**?
+
+What does a genuinely useful **voice interface** look like?
+
+How can complex systems become **intuitive interfaces**?
+
+How dynamic can a product become before it starts feeling **predictable**?
+
+</td>
+</tr>
+</table>
+
+---
+
+# 08 — 🧭 THE PROFILE IN ONE SCREEN
+
+<div align="center">
+
+| 🧠 PRODUCTS | 🤖 AI | 🎙️ VOICE | ⚡ REALTIME | 🛠️ TOOLS | 🧪 EXPERIMENTS |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Aura | Alice | Alice | BlueChat | PyDeps | The Lab |
+| Meeting AI | Agents | STT/TTS | Systems | DevTools | Prototypes |
+
+<br>
+
+### **BUILD → BREAK → UNDERSTAND → REBUILD**
+
+*The loop matters more than the label.*
+
+<br>
+
+**RAVEL MOMO** · `Software Engineer` · `Builder` · `Experimenter` 🚀
 
 </div>
